@@ -54,17 +54,22 @@ body {
 .main {
   background-color: #ffffff;
 
-  width: 70%;
-  padding-top: 200px;
+  max-width: 1400px;
   margin: 0 auto;
+  padding-top: 200px;
 
   display: flex;
   justify-content: space-between;
-  align-items: center;
   flex-wrap: wrap;
 }
 
 /* CARD */
+
+.card {
+  width: 32%;
+  padding-bottom: 80px;
+  position: relative;
+}
 
 .text-card > h5 {
   font-size: 1.25rem;
@@ -141,25 +146,25 @@ body {
 }
 
 .img-article2 {
-  display: none;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  opacity: 0;
 }
 
 .img-article {
-  display: block;
+  width: 100%;
 }
 
 /* HOVER */
 
-.heart:hover {
+.img-card:hover .heart {
   color: red;
 }
 
 .img-article2:hover {
-  display: block;
-}
-
-.img-article:hover {
-  display: none;
+  opacity: 1;
 }
 
 /* FOOTER */
