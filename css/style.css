@@ -16,7 +16,7 @@ img {
   background-color: #ff6900;
 
   width: 100%;
-  height: 5rem;
+  padding: 25px;
 
   position: fixed;
 
@@ -27,9 +27,13 @@ img {
   box-shadow: 0 2px #b9b9b9;
 }
 
+.logo {
+  width: 175px;
+}
+
 .header ul {
   list-style-type: none;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   display: flex;
 }
 
@@ -37,4 +41,19 @@ img {
   text-decoration: none;
   color: white;
   padding: 0 10px;
+}
+
+/* MAIN */
+
+.main {
+  background-color: #ffffff;
+
+  width: 70%;
+  padding-top: 200px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
