@@ -113,7 +113,22 @@ body {
   background-color: red;
 
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1rem;
+}
+
+.green-only {
+  position: absolute;
+  left: 0px;
+  bottom: 60px;
+
+  z-index: 1;
+
+  padding: 10px 15px;
+  color: white;
+  background-color: green;
+
+  font-weight: bold;
+  font-size: 1rem;
 }
 
 .green {
@@ -128,7 +143,7 @@ body {
   background-color: green;
 
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .heart {
